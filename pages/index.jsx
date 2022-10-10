@@ -17,7 +17,7 @@ export default function Home() {
     <div className="container">
       <Nav />
 
-      <h2 className="title">Top petss</h2>
+      <h2 className="title">Top pets</h2>
 
       <ul className="gallery">
         {pets.map((pet) => {
