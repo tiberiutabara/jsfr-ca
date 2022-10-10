@@ -6,7 +6,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import axios from "axios";
 import FormError from "./FormError";
 
-const BASE_URL = "http://178.62.85.205/wp-json/"; //CHANGE WORDPRESS LOCALHOST LINK HERE
+const BASE_URL = "https://wp-tab.monster/wp-json/"; //WORDPRESS LINK
 const TOKEN_PATH = "jwt-auth/v1/token";
 const url = BASE_URL + TOKEN_PATH;
 
